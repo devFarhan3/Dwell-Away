@@ -493,11 +493,11 @@
 
                     </ul>
                     <div class="tab-content pt-lg-3 pt-sm-2 pt-2" id="borderedTabJustifiedContent">
-                        <div class="tab-pane fade show active" id="bordered-justified-home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane fade show active table-responsive" id="bordered-justified-home" role="tabpanel" aria-labelledby="home-tab">
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th scope="col"></th>
+                                        <th scope="col" class="d-lg-block d-sm-none d-none"></th>
                                         <th scope="col">Ref No.</th>
                                         <th scope="col">Property Name</th>
                                         <th scope="col">Check In</th>
