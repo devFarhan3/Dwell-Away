@@ -1283,7 +1283,7 @@ include 'header.php';
     <div class="container ps-lg-0 pe-lg-0" data-aos="fade-up" data-aos-delay="100">
         <div class="test_h text-center d-block">
             <div class="resident_text ">
-                <h4>Testimonials <span class="gray">- Our guests </span> have
+                <h4 class="mb-0">Testimonials <span class="gray">- Our guests </span> have
                     expressed <span class="gray">gratitude</span>
                 </h4>
             </div>
