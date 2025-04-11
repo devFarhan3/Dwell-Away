@@ -72,9 +72,14 @@ body {
 }
 
 a {
-  color: var(--white);
+  color: #000000;
   text-decoration: none;
   transition: 0.3s;
+
+  &:hover {
+    color: #F29840 !important;
+    transition: 0.3s;
+  }
 }
 
 a:hover {
@@ -2035,7 +2040,7 @@ body {
   backdrop-filter: blur(4px);
   border-radius: 16px;
   padding: 60px 20px;
-  /* max-width: 30rem; */
+  max-width: 40rem;
 }
 
 .header .topbar .contact-info a,
@@ -2193,7 +2198,7 @@ body {
   color: var(--dark-black);
 
   &:hover {
-    background-color: var(--dark-black);
+    background-color: #F29840 !important;
     color: var(--white);
     transition: 0.5s;
   }
@@ -2484,7 +2489,8 @@ h4:is(.bd_1) {
 /* listimgs cards */
 
 .listing-card {
-  margin: 25px auto;
+  /* margin: 25px auto; */
+  margin: 0px auto 30px auto;
   max-width: 382px;
 }
 
@@ -2584,7 +2590,7 @@ h4:is(.bd_1) {
 }
 
 .card_expand .listing-card {
-  margin: 25px auto;
+  margin: 0px auto 30px auto;
   max-width: 100%;
 }
 
@@ -2639,6 +2645,7 @@ h4:is(.bd_1) {
   color: #000000;
   background: #f5f5f5;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 #testimonial_sec .swiper-slide p {
@@ -2656,8 +2663,9 @@ h4:is(.bd_1) {
   transform: scale(1);
   background: #000000;
   border-radius: 32px;
-  padding: 20px;
+  padding: 25px 30px;
   color: #fff;
+  cursor: pointer;
 }
 
 #testimonial_sec .swiper-slide.swiper-slide-active h5 {
@@ -2712,7 +2720,8 @@ h4:is(.bd_1) {
   margin-right: 10px;
 }
 
-#testimonial_sec .swiper-button-next:hover , #testimonial_sec .swiper-button-prev:hover {
+#testimonial_sec .swiper-button-next:hover,
+#testimonial_sec .swiper-button-prev:hover {
   background: #000000;
   transition: all 0.3s;
   color: #fff;
@@ -2741,7 +2750,7 @@ h4:is(.bd_1) {
   width: 50px;
   height: 50px;
   margin: 0 auto;
-  transform: translateX(10px);
+  /* transform: translateX(10px); */
   border: 1px solid #000000;
   color: #000000;
   right: auto;
@@ -3141,7 +3150,7 @@ h4:is(.bd_1) {
 }
 
 .founder_img {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .vision-sec img {
@@ -3183,6 +3192,7 @@ h4:is(.bd_1) {
 
 #about_us .about {
   margin-top: 250px;
+  padding-bottom: 70px;
 }
 
 #about_us .about .about-content h3 {
@@ -3258,7 +3268,7 @@ h4:is(.bd_1) {
 # Contact Section salman 
 --------------------------------------------------------------*/
 #contact_page .contact {
-  margin-top: 350px;
+  margin-top: 250px;
 }
 
 #contact_page .contact .card .info-wrap img {
@@ -3385,7 +3395,7 @@ h4:is(.bd_1) {
 }
 
 #listing_form {
-  margin-top: 250px;
+  margin-top: 220px;
 }
 
 .form-select:focus {
@@ -3577,8 +3587,9 @@ h4:is(.bd_1) {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: clamp(25px, 5vw, 30px);
+  line-height: clamp(30px, 5vw, 30px);
+
   margin-bottom: 13px;
   color: #000000;
 }
@@ -3796,11 +3807,12 @@ h4:is(.bd_1) {
   width: 100%;
 }
 
-.search input {
+.search input,
+.select_guests .form-select {
   width: 100%;
   border: 1px solid #959595;
   border-radius: 56px;
-  padding: 22px;
+  padding: 14px 22px;
   height: 45px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -3808,6 +3820,7 @@ h4:is(.bd_1) {
   font-size: 14px;
   line-height: 17px;
   text-transform: capitalize;
+  background: #FFFFFF;
   color: #959595;
 }
 
@@ -3826,9 +3839,9 @@ h4:is(.bd_1) {
 
 
 .sipdd .search .bi-envelope {
- 
+
   right: 20px;
-  
+
 }
 
 .sipdd .search .bi-envelope {
@@ -3908,7 +3921,7 @@ h4:is(.bd_1) {
   margin: 5px 7px;
   background: #D6D6D6;
   display: block;
-  -webkit-backface-visibility: visible;
+  /* -webkit-backface-visibility: visible; */
   transition: opacity .2s ease;
   border-radius: 30px;
 }
@@ -3988,11 +4001,13 @@ h4:is(.bd_1) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  font-size: clamp(30px, 5vw, 40px);
+  line-height: clamp(40px, 5vw, 40px);
+
   max-width: 500px;
+  margin-bottom: 0;
 }
 
 #singleBLog .centered {
@@ -4143,6 +4158,21 @@ h4:is(.bd_1) {
 
 #lpd .swiper-slide {
   transition: 0.7s;
+}
+
+#lpd .swiper-slide-active .listing-card .text .name {
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+
+}
+
+#lpd img {
+  border-radius: 10px;
 }
 
 /* #lpd .swiper-slide-active {
@@ -4297,7 +4327,7 @@ h4:is(.bd_1) {
 
 .leftside img {
   border-radius: 20px;
-  height: 245px;
+  height: 255px;
   object-fit: cover;
 }
 
@@ -4615,7 +4645,7 @@ h4:is(.bd_1) {
 }
 
 #blog {
-  padding-top: 170px;
+  padding-top: 180px;
 }
 
 
@@ -4681,6 +4711,16 @@ h4:is(.bd_1) {
 
 }
 
+
+.newsletter-form input::placeholder{
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
 #dashboard {
   padding-top: 150px;
 }
@@ -4704,7 +4744,7 @@ h4:is(.bd_1) {
 
 .half_img {
   position: relative;
-  height: 500px;
+  height: 600px;
   border-radius: 25px;
   overflow: hidden;
 }
@@ -4863,18 +4903,41 @@ h4:is(.bd_1) {
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
-  color:#fff !important;
+  color: #fff !important;
   background-color: #F29840 !important;
   border-color: #F29840 !important;
 }
 
-#contact_page .card-body  , #about_us  .card-body , #listings_page .card-body {
+#contact_page .card-body,
+#about_us .card-body,
+#listings_page .card-body {
   padding-left: 0px;
 }
 
 
+.book_icons {
+  position: absolute;
+  transform: translateY(50%);
+  right: 15px;
+
+}
+
+
+
+#preview .slick-next:focus,
+#preview .slick-next:hover,
+#preview .slick-prev:focus,
+#preview.slick-prev:hover {
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, #D9D9D9 100%);
+  /* background: #fff; */
+}
+
 /* ends farhan csss sec */
 
+
+.list_details {
+  padding-top: 40px;
+}
 
 @media (min-width: 1200px) {
 
@@ -4895,33 +4958,58 @@ h4:is(.bd_1) {
 
 @media (max-width: 600px) {
 
-  
+  #dashboard .wizard {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .sbi img {
+    width: 100%;
+  }
+
+  .blog_details {
+    padding: 40px 0px;
+  }
+
+  #singleBLog .centered {
+
+    width: 100%;
+  }
+
+  .acknowledgement {
+    font-size: 11px;
+    padding-left: 0;
+  }
+
+  #about_us .about {
+    padding-bottom: 40px;
+  }
 
   .sipdd h5 {
-    
+
     margin-bottom: 20px;
-}
+  }
 
   #step3 {
-    
+
     padding: 10px 5px;
-}
+  }
 
   #dashboard .wizard .nav {
     white-space: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
     flex-wrap: nowrap;
-}
+  }
 
   .login-page {
     padding: 30px 20px;
   }
 
-  #lpd .swiper-button-prev,
+  /* #lpd .swiper-button-prev,
   #lpd .swiper-button-next {
     display: none;
-  }
+  } */
 
   .opts-list li {
     width: 100% !important;

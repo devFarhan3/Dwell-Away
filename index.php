@@ -351,7 +351,7 @@ include 'header.php';
 
             <div class="col-lg-3 col-md-3 col-sm-4 col-12 mb-3" data-aos="fade-up" data-aos-delay="200">
                 <div class="card">
-                    <div class="card-content mt-lg-4">
+                    <div class="card-content mt-lg-5">
                         <div class="card-text animated fadeInDown bd_text">
                             <h4 class="text-uppercase bd_1">Business Day</h4>
                             <h4 class="text-uppercase bd_1 fw-bold"> Dubai United Arab Emirate</h4>
@@ -410,7 +410,7 @@ include 'header.php';
 
             <div class="col-lg-3 col-md-3 col-sm-4 col-12 mb-3" data-aos="fade-up" data-aos-delay="300">
                 <div class="card">
-                    <div class="card-content mt-lg-4">
+                    <div class="card-content mt-lg-5">
                         <div class="card-text animated fadeInDown bd_text">
                             <h4 class="text-uppercase bd_1">Business Day</h4>
                             <h4 class="text-uppercase bd_1 fw-bold"> Dubai United Arab Emirate</h4>
@@ -1280,7 +1280,7 @@ include 'header.php';
 <!-- testimonial_sec Section -->
 <section id="testimonial_sec" class="testimonial_sec">
 
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container ps-lg-0 pe-lg-0" data-aos="fade-up" data-aos-delay="100">
         <div class="test_h text-center d-block">
             <div class="resident_text ">
                 <h4>Testimonials <span class="gray">- Our guests </span> have
@@ -1830,7 +1830,7 @@ include 'header.php';
                     </p>
                     <form action="forms/newsletter.php" method="post" class="php-email-form">
                         <div class="newsletter-form">
-                            <input type="text" name="text" palceholder="Your Email...">
+                            <input type="text" name="text" placeholder="Your Email...">
                             <input type="submit" value="">
 
                         </div>

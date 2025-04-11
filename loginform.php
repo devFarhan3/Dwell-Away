@@ -14,15 +14,17 @@ include 'header.php';?>
                     <form action="" class="row gy-3">
                         <div class="gbk"  onclick="location.href='index.php'">
                             <small>
+                            <a href="#">
                                 <span>
-                                    <a href="#">
+                                 
                                         <svg width="22" height="11" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M0.692803 6.35598C0.693053 6.35623 0.693261 6.35652 0.693553 6.35677L5.04658 10.6888C5.37269 11.0133 5.90016 11.0121 6.22477 10.686C6.54934 10.3599 6.54809 9.8324 6.22198 9.50783L3.29935 6.59937L20.9423 6.59937C21.4024 6.59937 21.7754 6.2264 21.7754 5.76628C21.7754 5.30617 21.4024 4.9332 20.9423 4.9332L3.2994 4.9332L6.22194 2.02474C6.54805 1.70017 6.54929 1.17271 6.22473 0.846595C5.90011 0.520401 5.37261 0.519277 5.04654 0.843762L0.693511 5.17579C0.693261 5.17604 0.693052 5.17634 0.692761 5.17659C0.366484 5.50224 0.367525 6.03141 0.692803 6.35598Z" fill="black" />
                                         </svg>
 
-                                    </a>
+                                   
                                 </span>
                                 <span class="ms-2">Go Back</span>
+                                </a>
                             </small>
                         </div>
                         <img src="assets/img/dw/Logo.png" alt="logo" class="img-fluid w-25 mx-auto">
@@ -72,7 +74,9 @@ include 'header.php';?>
                             <button class="btn bg-black text-white py-2 rounded-5 w-100" type="submit">Login</button>
                         </div>
 
-                        <p class="text-center pp_tc">Don't have an account? <a href="signup.php" class="text-dark"><strong class="text-dark">Sign Up</strong></a></p>
+                        <p class="text-center pp_tc">Don't have an account? <a href="signup.php" class="text-dark"><strong class="text-dark">
+                            <u>Sign Up</u>
+                        </strong></a></p>
 
                     </form>
                 </div>

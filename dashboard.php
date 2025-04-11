@@ -482,7 +482,6 @@
                     </div>
                 </div>
                 <div class="tab-pane fade   mt-3" role="tabpanel" id="step3" aria-labelledby="step3-tab">
-
                     <!-- Bordered Tabs Justified -->
                     <ul class="nav nav-tabs nav-tabs-bordered border-0 d-flex text-start border-0" id="borderedTabJustified" role="tablist">
                         <li class="nav-item flex-fill" role="presentation">
@@ -493,7 +492,7 @@
                         </li>
 
                     </ul>
-                    <div class="tab-content pt-3" id="borderedTabJustifiedContent">
+                    <div class="tab-content pt-lg-3 pt-sm-2 pt-2" id="borderedTabJustifiedContent">
                         <div class="tab-pane fade show active" id="bordered-justified-home" role="tabpanel" aria-labelledby="home-tab">
                             <table class="table">
                                 <thead>
@@ -573,8 +572,6 @@
                         </div>
 
                     </div>
-
-
                 </div>
                 <div class="tab-pane fade   mt-3" role="tabpanel" id="step4" aria-labelledby="step4-tab">
                     <div class="billingsummary mb-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">

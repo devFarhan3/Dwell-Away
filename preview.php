@@ -6,10 +6,8 @@
 <div id="preview_slider">
     <!-- Listing Section -->
     <section id="preview" class="preview section">
-        <div class="container-fluid px-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="row gy-4">
-
-
+        <div class="container-fluid " data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-3">
                 <div class="col-xl-5 " data-aos="zoom-out" data-aos-delay="100">
                     <div class="booking_pdp_slider position-relative h-100">
                         <div class="top_icons d-flex ">

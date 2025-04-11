@@ -125,8 +125,8 @@
 
     <section id="founder-sec" class="founder-sec" data-aos="fade-up" data-aos-delay="100">
         <div class="container-fluid text-center">
-            <h2 class="py-3">Our <span class="fs_text">Founder’s</span> Message</h2>
-            <div class="text-center founder_img">
+            <h2 class="">Our <span class="fs_text">Founder’s</span> Message</h2>
+            <div class="text-center founder_img pt-4">
                 <img src="assets/img/dw/founder.png" alt="" class="img-fluid" width="240">
                 <p class="py-3 ">
                     Lorem Ipsum&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the

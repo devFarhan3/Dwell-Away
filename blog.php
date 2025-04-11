@@ -1,10 +1,8 @@
 <!-- header section -->
 <?php include("header.php");  ?>
 <!--  header section ends -->
-
 <div id="blog">
-    <div class="container ">
-
+    <div class="container " data-aos="fade-up" data-aos-delay="200">
         <div class="row d-flex flex-wrap">
             <div class="col-lg-4 col-md-4 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="100">
                 <div class="blog-img h-100">
@@ -23,12 +21,7 @@
 
             </div>
         </div>
-
-
-
-
-
-        <div class="d-flex align-items-center justify-content-between mt-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="d-flex align-items-center justify-content-between mt-3" >
             <div class="rs_btn mb-3">
                 <button class="btn   rounded-1">Real Estate</button>
             </div>
@@ -49,7 +42,6 @@
                 </p>
             </div>
         </div>
-
         <div class="row">
             <div class="col-lg-6">
                 <div class="airbnb mb-3">
@@ -64,8 +56,6 @@
 
 
         </div>
-
-
         <hr class="hr">
         <div class="blog_cards">
             <div class="row gy-3">
@@ -347,8 +337,6 @@
             
 
         </div>
-
-
         <nav aria-label="Page navigation example" class="my-5">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
@@ -370,7 +358,6 @@
         </nav>
     </div>
 </div>
-
 
 <!-- footer sec -->
 <?php include('footer.php'); ?>
