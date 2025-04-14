@@ -22,11 +22,11 @@
           <div class="col-lg-2 col-md-3  col-sm-4 col-6 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li> <a href="#">Holiday Homes</a></li>
-              <li> <a href="#">About</a></li>
+              <li> <a href="listings.php" target="_blank">Holiday Homes</a></li>
+              <li> <a href="about.php" target="_blank">About</a></li>
 
-              <li> <a href="#">Blog</a></li>
-              <li> <a href="#">Contact</a></li>
+              <li> <a href="blog.php" target="_blank">Blog</a></li>
+              <li> <a href="contact.php" target="_blank">Contact</a></li>
             </ul>
           </div>
 

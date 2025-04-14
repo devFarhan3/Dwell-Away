@@ -29,8 +29,7 @@
             <div>
                 <p class="gray ">September 10, 2024</p>
             </div>
-            <div>
-
+            <div class="read_mores" onclick="location.href='single_blog.php'" style="cursor: pointer;" >
                 <p>Read More
                     <span>
                         <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +59,7 @@
         <div class="blog_cards">
             <div class="row gy-3">
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -104,8 +103,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="200">
-                        <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -149,8 +147,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="300">
-                        <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -166,6 +163,7 @@
                         </div>
 
                         <div class="text">
+
                             <div class="d-flex justify-content-between">
                                 <div>
                                     <p class="title">Why Airbnb business is booming in Dubai?</p>
@@ -198,7 +196,7 @@
 
             <div class="row gy-3">
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -242,8 +240,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="200">
-                        <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -287,8 +284,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-xs-12">
-                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="300">
-                        <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
+                    <div class="blog-pg-card mb-3" data-aos="fade-up" data-aos-delay="100" onclick="location.href='single_blog.php'">
                         <div class="img position-relative">
                             <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
                             <div class="bottom-right">
@@ -304,6 +300,7 @@
                         </div>
 
                         <div class="text">
+
                             <div class="d-flex justify-content-between">
                                 <div>
                                     <p class="title">Why Airbnb business is booming in Dubai?</p>
@@ -333,9 +330,6 @@
 
                
             </div>
-
-            
-
         </div>
         <nav aria-label="Page navigation example" class="my-5">
             <ul class="pagination justify-content-center">

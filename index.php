@@ -289,7 +289,6 @@ include 'header.php';
 <section id="residents_live" class="about residents_live">
     <div class="container">
         <div class="row gx-3 d-flex justify-content-center">
-
             <div class="col-lg-6 col-md-6 col-sm-4 col-12 mb-3" data-aos="fade-up" data-aos-delay="100">
                 <div class="card">
                     <div class="card-content">
@@ -341,7 +340,7 @@ include 'header.php';
 
                             </div>
                         </div>
-                        <button class="card-button">
+                        <button class="card-button" onclick="window.location.href='listings.php'">
                             Read More
                             <span class="card-button-icon bi bi-chevron-right text-dark"></span>
                         </button>
@@ -400,7 +399,7 @@ include 'header.php';
 
                             </div>
                         </div>
-                        <button class="card-button">
+                        <button class="card-button" onclick="window.location.href='listings.php'">
                             Read More
                             <span class="card-button-icon bi bi-chevron-right text-dark"></span>
                         </button>
@@ -459,7 +458,7 @@ include 'header.php';
 
                             </div>
                         </div>
-                        <button class="card-button">
+                        <button class="card-button" onclick="window.location.href='listings.php'">
                             Read More
                             <span class="card-button-icon bi bi-chevron-right text-dark"></span>
                         </button>
@@ -744,7 +743,7 @@ include 'header.php';
                 </div>
 
                 <div class="viewBt">
-                    <a href="#" class="btn btn-primary">
+                    <a href="listings.php" target="_blank" class="btn btn-primary">
                         View All
                         <span class="ms-2">
                             <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
@@ -774,7 +773,7 @@ include 'header.php';
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gx-3">
             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 mt-0">
-                <div class="listing-card">
+                <div class="listing-card" onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -857,7 +856,7 @@ include 'header.php';
             </div>
 
             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 mt-0">
-                <div class="listing-card">
+                <div class="listing-card" onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -939,7 +938,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12 mt-0 card_expand">
-                <div class="listing-card ">
+                <div class="listing-card " onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -1022,7 +1021,7 @@ include 'header.php';
             </div>
 
             <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12 mt-0 card_expand">
-                <div class="listing-card ">
+                <div class="listing-card " onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -1105,7 +1104,7 @@ include 'header.php';
             </div>
 
             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 mt-0">
-                <div class="listing-card">
+                <div class="listing-card" onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -1188,7 +1187,7 @@ include 'header.php';
             </div>
 
             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 mt-0">
-                <div class="listing-card">
+                <div class="listing-card" onclick="location.href='listing_details.php'" style="cursor: pointer;">
                     <div class="img">
                         <div class="listing-card-slider-wrap ">
                             <div class="card_img">
@@ -1269,7 +1268,6 @@ include 'header.php';
                     </div>
                 </div>
             </div>
-
 
         </div>
 
@@ -1433,7 +1431,7 @@ include 'header.php';
             <!-- blogs cards sec -->
 
             <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="blog-pg-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="blog-pg-card" data-aos="fade-up" data-aos-delay="100" >
                     <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
                     <div class="img position-relative">
                         <img src="assets/img/dw/bl1.png" alt="block" class="img-fluid">
@@ -1504,7 +1502,8 @@ include 'header.php';
                         </p>
 
                         <div class="viewBt">
-                            <a href="#" class="btn btn-primary ">
+                            <a href="single_blog.php" class="btn btn-primary " target="_blank"
+                                rel="noopener noreferrer">
                                 Read More
                                 <span class="ms-2">
                                     <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -1600,7 +1599,8 @@ include 'header.php';
                         </p>
 
                         <div class="viewBt">
-                            <a href="#" class="btn btn-primary ">
+                            <a href="single_blog.php" class="btn btn-primary " target="_blank"
+                                rel="noopener noreferrer">
                                 Read More
                                 <span class="ms-2">
                                     <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
@@ -1696,7 +1696,8 @@ include 'header.php';
                         </p>
 
                         <div class="viewBt">
-                            <a href="#" class="btn btn-primary ">
+                            <a href="single_blog.php" class="btn btn-primary " target="_blank"
+                                rel="noopener noreferrer">
                                 Read More
                                 <span class="ms-2">
                                     <svg width="12" height="11" viewBox="0 0 12 11" fill="none"

@@ -77,7 +77,7 @@
             <ul>
               <li><a href="index.php" class="active">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <li><a href="#services">Holiday Homes</a></li>
+              <li><a href="listings.php">Holiday Homes</a></li>
               <li><a href="blog.php">Blog</a></li>
 
               <li><a href="contact.php">Contact</a></li>

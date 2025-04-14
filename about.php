@@ -96,7 +96,7 @@
 
 
                         <div class="viewBt">
-                            <a href="#" class="btn btn-primary">
+                            <a href="listings.php" target="_blank" class="btn btn-primary">
                                 See Our Homes
                                 <span class="ms-2">
                                     <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
