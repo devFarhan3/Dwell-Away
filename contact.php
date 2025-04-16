@@ -10,7 +10,7 @@
             <div class="row position-relative">
                 <div class="col main-col" data-aos="zoom-out">
                     <h1 class="hero-title text-uppercase p">Contact us</h1>
-                    <div class="row position-relative mt-3">
+                    <div class="row position-relative mt-3 mb-3 d-flex justify-content-center align-items-center">
                         <div class="col-lg-3 left-col mb-3">
                             <div class="card text-start rounded-4 shadow">
                                 <img class="card-img-top " src="assets/img/dw/herocard1.png" alt="Title" />

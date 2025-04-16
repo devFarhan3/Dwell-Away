@@ -267,7 +267,7 @@ h6 {
     padding: 18px 25px;
     font-size: 15px;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 
   }
 
@@ -505,19 +505,18 @@ h6 {
 }
 
 .footer .footer-newsletter .newsletter-form {
-  margin-top: 30px;
-  margin-bottom: 15px;
   padding: 5px 8px;
   position: relative;
-  /* background-color: var(--surface-color); */
-  /* border: 1px solid #ffffff; */
-  /* background: rgba(255, 255, 255, 0.3); */
   backdrop-filter: blur(4px);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   display: flex;
   transition: 0.3s;
   border-radius: 4px;
-  height: 50px;
+  height: 48px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .footer .footer-newsletter .newsletter-form:focus-within {
@@ -2323,7 +2322,7 @@ body {
   background: #ffffff;
   border: 2px solid;
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   display: flex;
   align-items: center;
   width: 95%;
@@ -2610,6 +2609,7 @@ h4:is(.bd_1) {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .test_h .resident_text {
@@ -2731,15 +2731,16 @@ h4:is(.bd_1) {
 #testimonial_sec .swiper-button-next {
   left: 50%;
   top: auto;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 50%;
   width: 50px;
   height: 50px;
   margin: 0 auto;
   transform: translateX(10px);
   border: 1px solid #000000;
-  color: #000000;
+  color: #ffffff;
   right: auto;
+  background: #000000;
 }
 
 #our_partners .swiper-button-next {
@@ -2750,7 +2751,7 @@ h4:is(.bd_1) {
   width: 50px;
   height: 50px;
   margin: 0 auto;
-  /* transform: translateX(10px); */
+  transform: translateX(10px);
   border: 1px solid #000000;
   color: #000000;
   right: auto;
@@ -2932,10 +2933,10 @@ h4:is(.bd_1) {
 }
 
 .img_content {
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1px solid rgba(217, 217, 217, 0.5);
   border-radius: 15px;
-  height: 200px;
+  height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3256,6 +3257,7 @@ h4:is(.bd_1) {
   transition: 0.5s;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
   border-radius: 46px;
+
 }
 
 .about .aboutbtn:hover {
@@ -3429,15 +3431,21 @@ h4:is(.bd_1) {
   color: #F09740;
 }
 
-.page-item:not(:first-child) .page-link {
+.page-item:not(:first-child) .page-link,
+.page-item:first-child .page-link {
   margin-left: calc(var(--bs-border-width) * -1);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  background: #FFFFFF;
+  border: 1.366px solid #F1F1F1 !important;
+  color: #333333;
+  border-radius: 50%;
   width: 43px;
   height: 43px;
   display: flex;
+  margin-left: 6px;
   justify-content: center;
   align-items: center;
 }
@@ -3500,7 +3508,7 @@ h4:is(.bd_1) {
   background: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 20px 15px;
+  padding: 20px 18px;
 }
 
 .billingsummary label {
@@ -3527,6 +3535,8 @@ h4:is(.bd_1) {
   line-height: 17px;
   text-transform: capitalize;
   color: #959595;
+  padding: 10px 0px 18px 0px !important;
+
 }
 
 && .billingsummary .form-control:focus {
@@ -3607,9 +3617,9 @@ h4:is(.bd_1) {
   margin-bottom: 20px;
 }
 
-.img img {
+/* .img img {
   border-radius: 20px 20px 0px 0px;
-}
+} */
 
 .chk_cards div {
   margin-bottom: 15px;
@@ -3639,6 +3649,7 @@ h4:is(.bd_1) {
   color: #000000;
   padding: 20px;
   width: 260px;
+  text-align: center;
 }
 
 .wizard .nav-tabs .nav-item .nav-link:hover {
@@ -3651,6 +3662,7 @@ h4:is(.bd_1) {
   padding: 20px;
   width: 260px;
   color: #fff;
+  text-align: center;
 }
 
 .wizard .nav-tabs .nav-item .nav-link.active svg path {
@@ -4712,13 +4724,13 @@ h4:is(.bd_1) {
 }
 
 
-.newsletter-form input::placeholder{
+.newsletter-form input::placeholder {
   font-family: "Inter", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
 }
 
 #dashboard {
@@ -4932,6 +4944,99 @@ color: #FFFFFF;
   /* background: #fff; */
 }
 
+.card_first .card-button {
+  width: 96% !important;
+  margin-left: 12px !important;
+}
+
+
+#our_partners .swiper-slide-active .img_content {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+
+#myTabContent .listing-card .img {
+
+  max-height: 230px;
+
+}
+
+.card_img img {
+  width: 100%;
+  height: 392px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+
+.first-column .name{
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 25px !important;
+  line-height: 27px !important;
+  color: #000000 !important;
+  margin-bottom: 10px !important;
+}
+
+.first-column .address {
+  font-family: 'Inter' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 17px !important;
+line-height: 25px !important;
+color: #959595 !important;
+}
+
+
+.grid-container {
+  display: grid;
+  gap: 22px;
+  margin-bottom: 20px;
+  grid-template-columns: 1fr 1fr 2fr ;
+}
+
+.grid-container {
+  @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr 2fr ;
+  }
+}
+
+
+.grid_container_1{
+  display: grid;
+  gap: 22px;
+  margin-bottom: 20px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.grid_container_1 {
+  @media (min-width: 768px) {
+      grid-template-columns: 2fr 1fr 1fr;
+  }
+}
+
+
+.column .name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.column .address {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #959595;
+}
+
 /* ends farhan csss sec */
 
 
@@ -4957,6 +5062,25 @@ color: #FFFFFF;
 /* farhan 600px query */
 
 @media (max-width: 600px) {
+
+  .first-column .name {
+ 
+    font-size: 20px !important;
+    line-height: 25px !important;
+  
+}
+
+  .amenities {
+
+    margin-bottom: 20px;
+}
+
+  .grid-container , .grid_container_1  {
+    display: block;
+  }
+  .table_none {
+    display: none;
+  }
 
   #dashboard .wizard {
     padding-top: 30px;

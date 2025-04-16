@@ -10,11 +10,11 @@
             <div class="row position-relative">
                 <div class="col main-col" data-aos="zoom-out">
                     <!-- <h1 class="hero-title text-uppercase">About Us</h1> -->
-                    <div class="row position-relative mt-4">
+                    <div class="row position-relative mt-4 d-lg-flex justify-content-center align-items-center">
                         <div class="col-lg-3 left-col mb-3">
                             <div class="card text-start rounded-4 shadow">
                                 <img class="card-img-top" src="assets/img/dw/herocard1.png" alt="Title" />
-                                <div class="card-body d-flex justify-content-between">
+                                <div class="card-body d-flex justify-content-between pb-0">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
@@ -31,7 +31,7 @@
                         <div class="col-lg-6 mid-col mb-3">
                             <div class="card big-card text-start rounded-4 shadow">
                                 <img class="card-img-top" src="assets/img/dw/herocard1.png" alt="Title" />
-                                <div class="card-body d-flex justify-content-between">
+                                <div class="card-body d-flex justify-content-between pb-0">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
@@ -46,17 +46,17 @@
                             </div>
                         </div>
                         <div class="col-lg-3 right-col mb-3">
-                            <div class="card text-start rounded-4 shadow">
+                        <div class="card text-start rounded-4 shadow">
                                 <img class="card-img-top" src="assets/img/dw/herocard1.png" alt="Title" />
-                                <div class="card-body d-flex justify-content-between">
+                                <div class="card-body d-flex justify-content-between pb-0">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
                                             <p class="card-text">Explore More <span class="ps-2"><img
-                                                        src="assets/img/dw/cardicon_big.png" alt="cardicon_small"></span></p>
+                                                        src="assets/img/dw/cardicon_small.png" alt="cardicon_small"></span></p>
                                     </div>
                                     <div>
-                                        <img src="assets/img/dw/cardicon_small.png" alt="">
+                                        <img src="assets/img/dw/cardicon_big.png" alt="">
                                     </div>
                                     </a>
                                 </div>
@@ -411,7 +411,7 @@
                     <div class="col-lg-5">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                            frameborder="0" style="border:0; width: 100%; height: 845px;" allowfullscreen=""
+                            frameborder="0" style="border:0; width: 100%; height: 845px; border-radius: 10px;" allowfullscreen=""
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div><!-- End Contact Form -->
 
@@ -420,15 +420,15 @@
                 <nav aria-label="Page navigation example" class="mt-4">
                     <ul class="pagination justify-content-center mb-0">
                         <li class="page-item">
-                            <a class="page-link border-0" href="#" aria-label="Previous">
+                            <a class="page-link " href="#" aria-label="Previous">
                                 <span aria-hidden="true"><i class="bi bi-chevron-left"></i></span>
                             </a>
                         </li>
                         <li class="page-item"><a class="page-link active border-0" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link border-0" href="#">...</a></li>
-                        <li class="page-item"><a class="page-link border-0" href="#">10</a></li>
+                        <li class="page-item"><a class="page-link " href="#">2</a></li>
+                        <li class="page-item"><a class="page-link " href="#">3</a></li>
+                        <li class="page-item"><a class="page-link " href="#">...</a></li>
+                        <li class="page-item"><a class="page-link " href="#">10</a></li>
                         <li class="page-item">
                             <a class="page-link border-0" href="#" aria-label="Next">
                                 <span aria-hidden="true"><i class="bi bi-chevron-right"></i></span>

@@ -3,7 +3,7 @@
 <!--  header section ends -->
 <div id="blog">
     <div class="container " data-aos="fade-up" data-aos-delay="200">
-        <div class="row d-flex flex-wrap">
+        <div class="row d-flex flex-wrap gy-3">
             <div class="col-lg-4 col-md-4 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="100">
                 <div class="blog-img h-100">
                     <img src="assets/img/dw/blk1.png" alt="b1" class="img-fluid w-100 h-100">

@@ -11,16 +11,17 @@
             <div class="row position-relative">
                 <div class="col main-col" data-aos="zoom-out">
                     <h1 class="hero-title text-uppercase pb-3">About Us</h1>
-                    <div class="row position-relative ">
+                    <div class="row position-relative mt-3 mb-3 d-flex justify-content-center align-items-center">
                         <div class="col-lg-3 left-col mb-3">
-                            <div class="card text-start rounded-4 ">
+                            <div class="card text-start rounded-4 shadow">
                                 <img class="card-img-top " src="assets/img/dw/herocard1.png" alt="Title" />
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
-                                            <p class="card-text">Explore More <span class="ps-2"><img
-                                                        src="assets/img/dw/cardicon_small.png" alt="cardicon_small"></span></p>
+                                            <p class="card-text">Explore More <span class="ps-2">
+                                                    <img src="assets/img/dw/cardicon_small.png" alt="cardicon_small"></span>
+                                            </p>
                                     </div>
                                     <div>
                                         <img src="assets/img/dw/cardicon_big.png" alt="">
@@ -30,14 +31,15 @@
                             </div>
                         </div>
                         <div class="col-lg-6 mid-col mb-3">
-                            <div class="card big-card text-start rounded-4 ">
+                            <div class="card big-card text-start rounded-4 shadow">
                                 <img class="card-img-top " src="assets/img/dw/herocard1.png" alt="Title" />
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
                                             <p class="card-text">Explore More <span class="ps-2"><img
-                                                        src="assets/img/dw/cardicon_small.png" alt="cardicon_small"></span></p>
+                                                        src="assets/img/dw/cardicon_small.png"
+                                                        alt="cardicon_small"></span></p>
                                     </div>
                                     <div>
                                         <img src="assets/img/dw/cardicon_big.png" alt="">
@@ -47,17 +49,18 @@
                             </div>
                         </div>
                         <div class="col-lg-3 right-col mb-3">
-                            <div class="card text-start rounded-4 ">
+                            <div class="card text-start rounded-4 shadow">
                                 <img class="card-img-top " src="assets/img/dw/herocard1.png" alt="Title" />
                                 <div class="card-body d-flex justify-content-between">
                                     <div>
                                         <a href="">
                                             <h4 class="card-title">Iconic Architecture</h4>
                                             <p class="card-text">Explore More <span class="ps-2"><img
-                                                        src="assets/img/dw/cardicon_big.png" alt="cardicon_small"></span></p>
+                                                        src="assets/img/dw/cardicon_small.png"
+                                                        alt="cardicon_small"></span></p>
                                     </div>
                                     <div>
-                                        <img src="assets/img/dw/cardicon_small.png" alt="">
+                                        <img src="assets/img/dw/cardicon_big.png" alt="">
                                     </div>
                                     </a>
                                 </div>
